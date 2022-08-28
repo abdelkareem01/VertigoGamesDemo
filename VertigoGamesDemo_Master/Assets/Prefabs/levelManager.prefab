@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6492037473889356781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6492037473889356778}
+  - component: {fileID: 6492037473889356779}
+  m_Layer: 0
+  m_Name: levelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6492037473889356778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492037473889356781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 417.35077, y: 291.20227, z: -94.48784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6492037473889356779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492037473889356781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d984e4c71236af74894ebdbdff8a2867, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb:
+    Icon: {fileID: 21300000, guid: 734dd2e628510144ea350bbdc9360dd1, type: 3}
+    resolution: {x: 140, y: 140}
+    name: bomb
+    Chance: 94
+    rarity: {r: 1, g: 1, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  wheels:
+  - {fileID: 8367842615599184041, guid: bd6418ddb85b3c640b809a44df35e0ae, type: 3}
+  - {fileID: 1118323776571871151, guid: 20a9539240b336247a1d9a4c1ad2b0c6, type: 3}
+  - {fileID: 7719447502976880696, guid: ca390334625d7414d9d1ce43cc7047d7, type: 3}
+  Tier1_Items:
+  - Icon: {fileID: 658189409, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 50}
+    name: cash
+    Chance: 84.9
+    rarity: {r: 0, g: 0.25958967, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1850366636, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 40}
+    name: green chest
+    Chance: 84.1
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1035473287, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 40}
+    name: bronze chest
+    Chance: 60
+    rarity: {r: 0.6731477, g: 0, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1641208614, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 50}
+    name: coins
+    Chance: 84.7
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -549658400, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 40}
+    name: tier 1 chest
+    Chance: 74.7
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1851260553, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 60}
+    name: pumpkin hat
+    Chance: 10
+    rarity: {r: 0.6745098, g: 0, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1071541194, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 20, y: 80}
+    name: health shot
+    Chance: 92.4
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1311090986, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 40, y: 60}
+    name: grenade 1
+    Chance: 94.7
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -808493627, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 40, y: 60}
+    name: grenade 2
+    Chance: 92.4
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1639518763, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 20, y: 80}
+    name: adrenaline shot
+    Chance: 93.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 180109770, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 40, y: 90}
+    name: molotov
+    Chance: 89.4
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1761885492, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 130, y: 70}
+    name: mag 7
+    Chance: 10
+    rarity: {r: 0.6745098, g: 0, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1424859287, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: kevlar points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1483635421, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: knife points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -375499961, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: pistol points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1543598628, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: rifle points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 922220929, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: shotgun points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 400283274, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: SMG points
+    Chance: 70.2
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 119759008, guid: c45ff0b8091f689439ec239d2d62b0fc, type: 3}
+    resolution: {x: 64, y: 54}
+    name: Sniper rifle points
+    Chance: 10
+    rarity: {r: 0, g: 0.2627451, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  Tier2_Items:
+  - Icon: {fileID: -1584283983, guid: b13b3844c71f0ea4b8b43d360cdb47c8, type: 3}
+    resolution: {x: 80, y: 45}
+    name: easter glasses
+    Chance: 29.5
+    rarity: {r: 1, g: 0, b: 0.8784314, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -398627071, guid: b13b3844c71f0ea4b8b43d360cdb47c8, type: 3}
+    resolution: {x: 95, y: 55}
+    name: easter hat
+    Chance: 32.5
+    rarity: {r: 1, g: 0, b: 0.8784314, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 2142664663, guid: b13b3844c71f0ea4b8b43d360cdb47c8, type: 3}
+    resolution: {x: 165, y: 64}
+    name: fade knife
+    Chance: 8.2
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -785758980, guid: b13b3844c71f0ea4b8b43d360cdb47c8, type: 3}
+    resolution: {x: 200, y: 70}
+    name: fade rifle
+    Chance: 9.8
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1677933984, guid: b13b3844c71f0ea4b8b43d360cdb47c8, type: 3}
+    resolution: {x: 64, y: 40}
+    name: silver chest
+    Chance: 60.4
+    rarity: {r: 0.6745098, g: 0, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  Tier3_Items:
+  - Icon: {fileID: 1019122077, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 64, y: 40}
+    name: Tier3 chest
+    Chance: 60.5
+    rarity: {r: 0.6745098, g: 0, b: 1, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1168440467, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 64, y: 40}
+    name: golden chest
+    Chance: 30.1
+    rarity: {r: 1, g: 0, b: 0.8784314, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -884597211, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 180, y: 70}
+    name: vice rifle
+    Chance: 2.3
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: 1120679778, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 180, y: 70}
+    name: vice shotgun
+    Chance: 3
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -294726646, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 180, y: 70}
+    name: vice p90
+    Chance: 4.4
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -606469701, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 180, y: 70}
+    name: vice bayonet
+    Chance: 1.4
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  - Icon: {fileID: -1895891589, guid: 3e41c8cd55867834f8975172a90736a8, type: 3}
+    resolution: {x: 180, y: 70}
+    name: vice bayonet
+    Chance: 1.4
+    rarity: {r: 1, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  wheelCanvas: {fileID: 0}
+  levelProgressUI: {fileID: 0}
+  maxSlots: 8
+  level: 1
+  premiumLoaded: 0
+  normalLoaded: 0
+  obtainedItem:
+    Icon: {fileID: 0}
+    resolution: {x: 0, y: 0}
+    name: 
+    Chance: 100
+    rarity: {r: 0, g: 0, b: 0, a: 0}
+    Index: 0
+    _weight: 0
+  iM: {fileID: 0}
